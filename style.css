@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+ font-family: open sans;
+ font-size: 1rem;
+ margin: 0;
+ color: hsl(192, 100%, 9%);
+}
+.header {
+    background-color: hsl(193, 100%, 96%);
+    padding-bottom: 7em;
+    background-image: url(/images/bg-hero-desktop.svg);
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.header-submit {
+    background-color: white;
+    border-radius: 30px;
+    font-family: poppins;
+    padding: 0.7em 3em 0.7em 3em;
+    font-weight: 700;
+    font-size: larger;
+    border-style: none;
+    box-shadow: 1px 1px 5px rgb(128, 126, 126);
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    cursor: pointer;
+    
+}
+
+.header-submit:hover {
+    opacity: 0.7;
+}
+
+
+
+.header-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-wrap: wrap;
+    
+    
+}
+
+.text {
+    width: 35%;
+    font-size: 1.6rem;
+    margin-left: 3em;
+    
+}
+.text h1 {
+    font-family: poppins;
+}
+
+.text p {
+   
+    opacity: 0.8;
+    
+}
+
+
+.image-header-text {
+    width: 90%;
+}
+
+.pink-submit {
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    border-radius: 50px;
+    font-family: poppins;
+    padding: 1.5em 5em 1.5em 5em;
+    font-size: large;
+    color: hsl(193, 100%, 96%);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.pink-submit:hover {
+    opacity: 0.7;
+}
+
+
+.text-section {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-plus-bild { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+    width: 85%;
+    justify-content: center;
+    gap: 10em;
+    padding: 5em 0 5em 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgb(128, 126, 126);
+    flex-wrap: wrap-reverse;
+    
+    
+    
+
+}
+
+.text-plus-bild-wrap-reverse { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+    width: 85%;
+    justify-content: center;
+    gap: 10em;
+    padding: 5em 0 5em 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgb(128, 126, 126);
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.text-mitte {
+    width: 28em;
+    font-size: 1.5rem;
+    padding-left: 5em;
+}
+
+.text-mitte p {
+    opacity: 0.7;
+}
+
+.bild-mitte {
+    width: 40%;
+
+
+}
+
+.unten-box {
+    box-shadow: 1px 1px 5px rgb(128, 126, 126);
+    width: 50%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 5em 0 5em 0;
+   border-radius: 40px;
+   margin-bottom: 4em;
+}
+
+.unten-box h1 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+.submit-unten {
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    border-radius: 50px;
+    font-family: poppins;
+    padding: 1em 4em 1em 4em;
+    font-size: 2rem;
+    color: hsl(193, 100%, 96%);
+    
+    cursor: pointer;
+}
+
+.submit-unten:hover {
+    opacity: 0.7;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    font-size:1.4rem;
+    padding: 8em 0 1em 0;
+   
+}
+
+.footer-flex {
+    display: flex;
+  justify-content: space-evenly;
+   gap: 5em;
+   margin-left: 5em;
+  
+
+   
+   
+   
+   
+}
+
+.footer-box {
+ display: flex;
+ flex-direction: column;
+ opacity: 0.8;
+ width: 30em;
+ gap: 1em;
+
+
+
+ 
+
+  
+
+   
+}
+
+.flexbox-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    opacity: 0.8;
+}
+
+.footer-icons {
+   padding-right: 1em;
+}
+
+.erste-box-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.icon-standort {
+    margin-top: 0.5em;
+    padding-right: 1.5em;
+   
+}
+
+.logo-footer {
+    width: 17%;
+    margin-left: 6.3em;
+    margin-bottom: 2em;
+    filter: invert(100%) sepia(1%) saturate(4616%) hue-rotate(61deg) brightness(113%) contrast(101%);
+}
+
+.social-media-icons img {
+    width: 10%;
+    padding-left: 1em;
+    filter: invert(100%) sepia(1%) saturate(4616%) hue-rotate(61deg) brightness(113%) contrast(101%);
+    
+}
+
+.social-media-icons img:hover {
+    filter: invert(73%) sepia(45%) saturate(350%) hue-rotate(305deg) brightness(107%) contrast(102%);
+}
+
+.social-media-icons {
+  
+    width: 18em
+}
+
+.copyright {
+margin-top: 10em;
+margin-left: 70%;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+    
+ body {
+     margin: 0;
+     
+ }
+
+ .header {
+     background-image: url(/images/bg-hero-mobile.svg);
+ }
+
+    .text {
+        width: auto;
+        font-size: 1rem;
+        margin-left: auto;
+        text-align: center;
+        
+        
+  
+  
+  
+    }
+    .text h1 {
+        font-size: 1.6rem;
+    }
+
+    .image-header-text {
+        width: 80vw;
+        margin-top: 4em;
+       
+    }
+
+    .unten-box {
+        width: auto;
+       margin: auto;
+       text-align: center;
+       padding: 1em 0 1em 0;
+       margin: 0 1em 1em 1em;
+       
+    }
+    
+    .unten-box h1 {
+        font-size: 1.1rem;
+        margin-bottom: 1em;
+    }
+    
+    
+    .header-navbar {
+       justify-content: space-between;
+        padding: 1em;
+        align-items: center;
+        margin-bottom: 4em;
+        
+    }
+    .header-submit {
+       
+        padding: 0.7em 1em 0.7em 1em;
+        font-weight: 700;
+        font-size: medium;
+        text-align: center;
+       
+    }
+
+    .header-text {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        flex-wrap: wrap;
+        margin: 0 1em 0 1em;
+        text-align: center;
+        font-size: 1rem;
+        
+        
+    }
+
+    .submit-unten {
+        padding: 1em ;
+        font-size: 1rem;
+       }
+    
+
+       .text-mitte {
+        width: auto;
+        font-size: 1rem;
+        padding-left: 0;
+       
+    }
+
+  
+    
+ 
+    
+    .bild-mitte {
+        width: 100%;
+    
+    
+    }
+
+    .text-section {
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        
+    }
+    
+    .text-plus-bild { 
+         gap: 1em;
+        padding: 1em;
+       flex-wrap: wrap-reverse;
+       text-align: center;
+        
+        
+        
+    
+    }
+
+    .text-plus-bild-wrap-reverse { 
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        width: 85%;
+        justify-content: center;
+        gap: 1em;
+        padding: 1em;
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px rgb(128, 126, 126);
+        flex-wrap: wrap;
+        text-align: center;
+        
+        
+        
+    
+    }
+
+    .pink-submit {
+       
+        padding: 1em;
+        font-size: medium;
+       margin-top: 2em;
+        font-weight: bold;
+      
+        
+    }
+
+    .header {
+        
+        padding-bottom: 2em;
+    }
+
+    footer {
+      
+        font-size:1.2rem;
+        padding: 5em 0 1em 0;
+       
+    }
+
+    .footer-flex {
+        display: flex;
+      justify-content: flex-start;
+       gap: 1em;
+       margin: 2em;
+       flex-direction: column;
+       
+      
+    
+       
+       
+       
+       
+    }
+    
+    .footer-box {
+     opacity: 1;
+     width: auto;
+     gap: 1em;
+     margin-bottom: 2em;
+    
+    
+    
+     
+    
+      
+    
+       
+    }
+    
+    .flexbox-stats {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        opacity: 1;
+       
+        
+    }
+    
+    .footer-icons {
+       padding-right: 1em;
+    }
+    
+    .erste-box-footer {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        
+        
+       
+    }
+    
+    .icon-standort {
+        margin-top: 0.5em;
+        padding-right: 1.5em;
+        
+       
+    }
+    
+    .logo-footer {
+        width: auto;
+        margin-left: 2em;
+        margin-bottom: auto;
+        filter: invert(100%) sepia(1%) saturate(4616%) hue-rotate(61deg) brightness(113%) contrast(101%);
+
+    }
+    
+    .social-media-icons img {
+        width: 2em;
+        padding-left: 1em;
+        filter: invert(100%) sepia(1%) saturate(4616%) hue-rotate(61deg) brightness(113%) contrast(101%);
+       
+        
+    }
+    
+    .social-media-icons {
+      margin-left:  2.5em;
+        width: 100%;
+        margin-top: 3em;
+    }
+    
+    .copyright {
+    margin-top: 3em;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1rem;
+    }
+
+    .logo-header {
+        width: 11em
+    }
+}
